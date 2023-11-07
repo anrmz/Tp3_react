@@ -23,7 +23,7 @@ export default function Form() {
 
   /***********Add Task***************/
 
-  const addTodo = (e) => {e.preventDefault();
+  const addTodo = (e) =>{e.preventDefault();
 
     const newArr = [...dataArr];
     const newTod = {};
@@ -36,9 +36,12 @@ export default function Form() {
   /***********Delete Task***************/
 
   const DeleteEleme = (id) => {
-    const newArr = dataArr.filter((el) => el.id !== id);
-    setDataArr(newArr);
-  };
+    let newArr = [...dataArr]
+    newArr=newArr.filter(element=>{
+      return element.id!=id;
+    })
+ setDataArr(newArr);
+    }
 
   /***********fonction toggleTodo ***************/
 
