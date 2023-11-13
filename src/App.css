@@ -9,15 +9,18 @@
   font-family: 'Poppins', sans-serif;
 }
 body {
-  background: #7ab0db;
+  background: #000000;
 }
 .container {
   width: 400px;
-  background: #223469e4;
+  background-color:#000000;
   padding: 1rem;
   /* margin: 5rem auto; */
   margin: 3rem auto;
   border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin-top: 70px;
+
 }
 .container h2 {
   text-align: center;
@@ -33,11 +36,12 @@ body {
 .form-control {
   width: 100%;
   padding: 5px 1rem;
-  background: #3e3e5a;
+  background: #000000;
   border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 .mb-3 input {
   background: transparent;
@@ -47,9 +51,10 @@ body {
 }
 .mb-3 input::placeholder {
   color: rgb(161, 160, 160);
+  
 }
 .mb-3 button {
-  background: #3d79b1;
+  background: rgb(255, 0, 0);
   color: #fff;
   font-size: 2rem;
   width: 35px;
@@ -60,6 +65,8 @@ body {
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.5s;
+  margin-top: 10px;
+  margin: 9px;
 }
 
 
@@ -72,6 +79,7 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
+  
 }
 
 .toDoList .list-items {
@@ -80,6 +88,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+  
 }
 .list-items .items {
   background: #44446b;
@@ -89,17 +98,21 @@ body {
   align-items: center;
   justify-content: space-between;
   color: rgb(186, 186, 186);
+
 }
 
 .delete-button {
-  width: 70px;
-  height: 30px;
+  width: 80px;
+  height: 40px;
   font-size: 16px !important;
   cursor: pointer;
-  border-radius: 20%;
-  padding: 5px;
-  display: block;
-  margin-bottom: 30px;
-  padding-bottom: 1px;
-  background: #3d79b1;
+  border-radius: 10%;
+  background: rgb(255, 0, 0);
+  color: white;
+  
 }
+ul{
+  color: rgb(186, 186, 186);
+}
+
+
